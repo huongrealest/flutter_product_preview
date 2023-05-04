@@ -11,12 +11,10 @@ class AppThemes {
     dialogBackgroundColor: AppColors.lotion,
     scaffoldBackgroundColor: AppColors.lotion,
     inputDecorationTheme: AppFormField.outlineInputDecorationTheme,
-    
     elevatedButtonTheme: const ElevatedButtonThemeData(
       style: ButtonStyle(
         backgroundColor: MaterialStatePropertyAll(AppColors.green),
         padding: MaterialStatePropertyAll(AppPads.buttonPadding),
-        textStyle: MaterialStatePropertyAll(AppTextStyles.button),
         shape: MaterialStatePropertyAll(
           RoundedRectangleBorder(
             borderRadius: AppBorderAndRadius.defaultBorderRadius,

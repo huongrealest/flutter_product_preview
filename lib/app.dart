@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:preview/common/bindings/app_binding.dart';
 import 'package:preview/common/theme/app_themes.dart';
 import 'package:preview/modules/auth/login/login_screen.dart';
 
@@ -13,7 +14,7 @@ class App extends StatelessWidget {
       title: 'Flutter Product Preview',
       debugShowCheckedModeBanner: false,
       theme: AppThemes.appTheme,
-    
+    initialBinding: AppBinding(),
       home: const LoginScreen(),
     );
   }

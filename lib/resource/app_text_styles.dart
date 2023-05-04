@@ -6,7 +6,11 @@ class AppTextStyles {
     fontSize: 16,
     color: AppColors.lotion,
     fontWeight: FontWeight.w700,
-    fontFamily: 'Quicksand',
+  );
+  static const TextStyle textButton = TextStyle(
+    fontSize: 14,
+    color: AppColors.blackOlive,
+    fontWeight: FontWeight.w500,
   );
   static const TextStyle hintText = TextStyle(
     fontSize: 14,
